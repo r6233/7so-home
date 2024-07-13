@@ -39,8 +39,6 @@ export default function RootLayout(props: {
   if (!AllLocales.includes(props.params.locale)) notFound();
 
   // Using internationalization in Client Components
-  const messages = useMessages();
-
   return (
     <html lang={props.params.locale}>
     </html>
