@@ -12,7 +12,7 @@ const Hero = () => {
     <Section className="py-36">
       <CenteredHero
         banner={{
-          href: 'https://twitter.com/ixartz',
+          href: 'https://twitter.com/7sodrive',
           text: (
             <>
               <TwitterLogoIcon className="mr-1 size-5" /> {t('follow_twitter')}
@@ -31,17 +31,9 @@ const Hero = () => {
           <>
             <a
               className={buttonVariants({ size: 'lg' })}
-              href="https://github.com/ixartz/SaaS-Boilerplate"
+              href="https://pan.7so.top"
             >
               {t('primary_button')}
-            </a>
-
-            <a
-              className={buttonVariants({ variant: 'outline', size: 'lg' })}
-              href="https://github.com/ixartz/SaaS-Boilerplate"
-            >
-              <GitHubLogoIcon className="mr-2 size-5" />
-              {t('secondary_button')}
             </a>
           </>
         }
